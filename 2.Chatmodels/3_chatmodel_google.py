@@ -8,7 +8,7 @@ model = ChatGoogleGenerativeAI(
     temperature=0.2
 )
 
-result = model.invoke("What is the capital of India?")
+result = model.invoke("What is the capital of Bihar and give me in one word?")
 print(result.content)
 
 
