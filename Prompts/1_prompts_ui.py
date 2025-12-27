@@ -10,7 +10,6 @@ load_dotenv()
 
 model = ChatGoogleGenerativeAI(
     model="models/gemini-flash-latest",
-
 )
 
 st.header("Research Tool")
